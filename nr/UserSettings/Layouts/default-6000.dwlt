@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 91
+  controlID: 88
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -276,8 +276,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1484
-    y: 24
+    x: 1483
+    y: 79
     width: 436
     height: 907
   m_SerializedDataModeController:
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 328
     height: 907
   m_SerializedDataModeController:
@@ -446,7 +446,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: cef6ffff18fbffff
+      m_ExpandedIDs: 18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -600,8 +600,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 24
+    x: 329
+    y: 79
     width: 1152
     height: 615
   m_SerializedDataModeController:
@@ -1144,9 +1144,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -1.1235926, y: 2.4994957, z: -1.471096}
+    m_Target: {x: -10.49813, y: 3.6083724, z: -11.759147}
     speed: 2
-    m_Value: {x: -1.6850245, y: 8.914777, z: -3.1353207}
+    m_Value: {x: -10.49813, y: 3.6083724, z: -11.759147}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1192,20 +1192,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.002539099, y: 0.97191626, z: -0.23507443, w: 0.010497939}
+    m_Target: {x: 0.034932066, y: -0.89980185, z: 0.073324464, w: 0.42868468}
     speed: 2
-    m_Value: {x: 0.23050208, y: -0.10542626, z: -0.025111359, w: -0.9670331}
+    m_Value: {x: -0.034931883, y: 0.89979714, z: -0.07332407, w: -0.42868245}
   m_Size:
-    m_Target: 2.9064405
+    m_Target: 16.077944
     speed: 2
-    m_Value: 10
+    m_Value: 15.385592
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 2
-    m_SpeedNormalized: 1
+    m_Speed: 1.9403001
+    m_SpeedNormalized: 0.97
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1253,8 +1253,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 665
+    x: 329
+    y: 720
     width: 1152
     height: 266
   m_SerializedDataModeController:
@@ -1291,14 +1291,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: Z:\superneirogay\new\nr
+  m_LastProjectPath: "C:\\Users\\kniaz\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439
+    \u0441\u0442\u043E\u043B\\neiroGame\\new\\nr"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: eaa70000
-    m_LastClickedID: 42986
-    m_ExpandedIDs: 0000000030a80000
+    m_SelectedIDs: 30a80000
+    m_LastClickedID: 43056
+    m_ExpandedIDs: 0000000030a8000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1355,7 +1356,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000d867000080670000be650000d2680000c86800003a690000cc680000366800003268000090680000546700003a7f00005263000014680000926c0000986c000022680000be97000006980000dc970000866a0000107900001a7900002c790000fc780000b88e0000786b00001a6d00002c8b0000788b000058460100e67200002cbf0000fec50000a2c70000b2b20000e86f0000986f00000a8a000012840000be750000c4850000b2850000a8850000968500008485000042860000a2860000b86f00007486000086860000c47a0000ec6f0000dc700000b66f00003ca7000060a70000da6f0000f2b20000f6b20000c89d0000d89d0000cc9d000074b3000002a000003aa0000006a00000ea2e0100f04b01009c7e0000a67e00006c7e00005a7e0000769e0000649e00005a9e0000489e0000369e00001cb20000f6780000347b0000387b0000407b0000707b0000747b000064720000687200006c7200007272000076720000a6700000209900005a860000aa7b0000fc930000f8930000b88600005c9f0000b873000002740000f8730000bc9b0000287900005c790000527900003e9c0000229c0000189c0000069c0000aa940000929400001e8f0000328f0000588f000094900000989000009c9000005e750000ea7900007e790000247a0000e480000082710000a2700000b07d00005c7f00001c8b0000b87f0000647f0000907f0000e0600000c497000054700000786400007664000072640000744a010026a7010022a701001ca7010010d00000f06000000c6a00001890000000f100009c1a0200e26d00000aba02002efa03000eba020004ba02001465050006ba02007a6700002aa000003ea3000076d1000092f400006a6000001e600000406d0000d0bd0000a8e30000946e000076080100fa630000c4590000d267000062590000b4590000785e0000925c0000105b0000206100005ebd00008abd00000e67000010670000aa660000b0660000e8660000aa720000b6720000bc720000c27200004a7300008c730000987c0000267b0000386c0000866c0000a8860000786e0000e06c0000e4700000c674000038840000da660000fe720000fc76000088750000107d00006a7d0000347f00009c790000f2ff00002e6800009479000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
