@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|z:\\superneirogay\\new\\nr\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "camera.cs",
+              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\camera.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\camera.cs",
+              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\camera.cs",
+              "RelativeToolTip": "Assets\\scripts\\camera.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:34:23.052Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\move.cs",
               "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\move.cs",
               "RelativeToolTip": "Assets\\scripts\\move.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T21:38:52.237Z",
               "EditorCaption": ""

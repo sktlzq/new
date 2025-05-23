@@ -69,7 +69,7 @@ public class Move : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        IsGroundedUpdate(collision, true);
+        IsGroundedUpdate(collision, true);        
     }
 
     void OnCollisionExit(Collision collision)
@@ -79,7 +79,7 @@ public class Move : MonoBehaviour
 
     private void IsGroundedUpdate(Collision collision, bool value)
     {
-        if (collision.gameObject.tag == ("Ground"))
+        if (collision.gameObject.tag == ("GND"))
         {
             isGrounded = value;
         }
