@@ -22,9 +22,6 @@ public class camera : MonoBehaviour
         eulerY = (transform.rotation.eulerAngles.y + X) % 360;
         body.transform.rotation = Quaternion.Euler(0, eulerY, 0);
         head.transform.rotation = Quaternion.Euler(eulerX, body.transform.rotation.eulerAngles.y, 0);
-        if (Input.GetKeyUp(KeyCode.Escape))
-        {
-            Cursor.lockState = CursorLockMode.None;
-        }
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }
