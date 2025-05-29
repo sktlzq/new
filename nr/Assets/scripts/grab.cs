@@ -4,28 +4,46 @@ using UnityEngine;
 public class grab : MonoBehaviour
 {
     [SerializeField] GameObject me;
+    private GameObject target;
+    [SerializeField] Transform handpos;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        target = null;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetMouseButton(0))
         {
-            Ray ray = new Ray();
-            ray.origin = me.transform.position;
-            ray.direction = me.transform.forward;
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            if (target == null)
             {
-                if (transform.gameObject.tag != "GND" && transform.gameObject.tag != "NotT")
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit, 5))
                 {
-                    Destroy(hit.transform.gameObject);
+                    if (hit.transform.gameObject.tag != "GND" && hit.transform.gameObject.tag != "NotT")
+                    {
+                        target = hit.transform.gameObject;
+                    }
                 }
-            }
+            }  
         }
+        else
+        {
+            target = null;
+        }
+
+
+        if (target != null)
+        {
+            target.transform.rotation = handpos.rotation;
+            target.transform.Find("grabpos").LookAt(handpos.position);
+            target.GetComponent<Rigidbody>().AddForce(target.transform.Find("grabpos").forward * (Vector3.Distance(handpos.position, target.transform.position)) * 10, ForceMode.Impulse);
+            target.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;           
+        }
+
     }
 }
+
