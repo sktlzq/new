@@ -49,24 +49,27 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddForce(me.transform.forward * Speed);
+            rb.AddForce(me.transform.forward * Speed * 20);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            rb.AddForce(-me.transform.forward * Speed);
+            rb.AddForce(-me.transform.forward * Speed * 20);
+            
         }
         if (Input.GetKey(KeyCode.A))
         {
-            rb.AddForce(-me.transform.right * Speed);
+            rb.AddForce(-me.transform.right * Speed * 20);            
         }
         if (Input.GetKey(KeyCode.D))
         {
-            rb.AddForce(me.transform.right * Speed);
+            rb.AddForce(me.transform.right * Speed * 20);
         }
         if (Input.GetKey(KeyCode.Space))
         {
             JumpLogic();
         }
+        rb.linearVelocity = Vector3.zero;
+
     }
 
     private void JumpLogic()
