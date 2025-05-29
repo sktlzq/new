@@ -1,56 +1,129 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class ObjectSpawnerUI : MonoBehaviour
 {
+    [Header("Настройки UI")]
+    [SerializeField] private GameObject uiPanel;       // Основная панель
+    [SerializeField] private GameObject buttonPrefab; // Префаб кнопки
+    [SerializeField] private Transform buttonsParent; // Контейнер для кнопок (VerticalLayoutGroup)
+    [SerializeField] private int maxButtonsPerRow = 4; // Макс. кнопок в строке
 
-    [SerializeField] private GameObject uiPanel; // Панель с кнопками
-    [SerializeField] private GameObject panel;
-    [SerializeField] private GameObject bomba; // Префаб куба
-    [SerializeField] private GameObject gun; // Префаб сферы
-    [SerializeField] private GameObject bita; // Префаб сферы
+    [Header("Объекты для спавна")]
+    [SerializeField] private List<GameObject> spawnableObjects; // Префабы
     [SerializeField] private Transform spawnPoint; // Точка создания объектов
 
-    void Start()
-    {
-        // Скрываем панель при старте
-        uiPanel.SetActive(false);
-        panel.SetActive(true);
+    private List<GameObject> spawnedButtons = new List<GameObject>();
+    private bool isUIOpen = false;
 
-        // Находим кнопки и назначаем методы
-        Button[] buttons = uiPanel.GetComponentsInChildren<Button>();
-        buttons[0].onClick.AddListener(SpawnBomba);    // Первая кнопка
-        buttons[1].onClick.AddListener(SpawnGun);   // Вторая кнопка
-        buttons[2].onClick.AddListener(SpawnBita);   // Вторая кнопка
+    private void Start()
+    {
+        uiPanel.SetActive(false);
+        CreateButtons();
+        LockCursor(); // Блокируем курсор при старте
     }
 
-    void Update()
+    private void Update()
     {
-        // Включаем/выключаем панель по нажатию Tab
-        if (Input.GetKeyUp(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
-            uiPanel.SetActive(!uiPanel.activeInHierarchy);
-        }
-        if (Input.GetKeyUp(KeyCode.Escape))
-        {
-            panel.SetActive(!panel.activeInHierarchy);
+            ToggleUI();
         }
     }
 
-    void SpawnBomba()
+    // Включение/выключение UI с управлением курсором
+    private void ToggleUI()
     {
-        Instantiate(bomba, spawnPoint.position, Quaternion.identity);
-        uiPanel.SetActive(false); // Закрываем панель после выбора
+        isUIOpen = !isUIOpen;
+        uiPanel.SetActive(isUIOpen);
+
+        if (isUIOpen)
+        {
+            UnlockCursor(); // Разблокируем курсор
+        }
+        else
+        {
+            LockCursor(); // Блокируем курсор
+        }
     }
 
-    void SpawnGun()
+    // Создание кнопок с автопереносом
+    private void CreateButtons()
     {
-        Instantiate(gun, spawnPoint.position, Quaternion.identity);
-        uiPanel.SetActive(false);
+        ClearOldButtons();
+
+        GameObject currentRow = null;
+        HorizontalLayoutGroup currentRowHLG = null;
+        int buttonsInCurrentRow = 0;
+
+        for (int i = 0; i < spawnableObjects.Count; i++)
+        {
+            if (buttonsInCurrentRow == 0 || buttonsInCurrentRow >= maxButtonsPerRow)
+            {
+                currentRow = CreateNewRow();
+                currentRowHLG = currentRow.GetComponent<HorizontalLayoutGroup>();
+                buttonsInCurrentRow = 0;
+            }
+
+            CreateButton(currentRow.transform, i);
+            buttonsInCurrentRow++;
+        }
     }
-    void SpawnBita()
+
+    private GameObject CreateNewRow()
     {
-        Instantiate(bita, spawnPoint.position, Quaternion.identity);
-        uiPanel.SetActive(false);
+        GameObject row = new GameObject($"Row_{spawnedButtons.Count / maxButtonsPerRow}");
+        row.transform.SetParent(buttonsParent, false);
+
+        HorizontalLayoutGroup hlg = row.AddComponent<HorizontalLayoutGroup>();
+        hlg.childAlignment = TextAnchor.MiddleCenter;
+        hlg.spacing = 10;
+
+        return row;
+    }
+
+    private void CreateButton(Transform parent, int index)
+    {
+        GameObject buttonObj = Instantiate(buttonPrefab, parent);
+        Button button = buttonObj.GetComponent<Button>();
+
+        if (buttonObj.TryGetComponent(out Text buttonText))
+        {
+            buttonText.text = spawnableObjects[index].name;
+        }
+
+        button.onClick.AddListener(() => OnButtonClick(index));
+        spawnedButtons.Add(buttonObj);
+    }
+
+    private void OnButtonClick(int index)
+    {
+        if (index < 0 || index >= spawnableObjects.Count) return;
+
+        Instantiate(spawnableObjects[index], spawnPoint.position, Quaternion.identity);
+        ToggleUI(); // Закрываем UI после выбора
+    }
+
+    private void ClearOldButtons()
+    {
+        foreach (var button in spawnedButtons)
+        {
+            if (button != null) Destroy(button);
+        }
+        spawnedButtons.Clear();
+    }
+
+    // Блокировка/разблокировка курсора
+    private void LockCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    private void UnlockCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }

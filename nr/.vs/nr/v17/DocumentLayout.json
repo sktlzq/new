@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\bitabit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bitabit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,14 +44,14 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\Spawner.cs",
               "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\Spawner.cs",
               "RelativeToolTip": "Assets\\scripts\\Spawner.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwHcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T15:46:18.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bitabit.cs",
               "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\Bitabit.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Bitabit.cs",
@@ -59,12 +59,11 @@
               "RelativeToolTip": "Assets\\scripts\\Bitabit.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T15:21:33.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T15:21:33.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "cubebabax.cs",
               "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\cubebabax.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\cubebabax.cs",
@@ -72,12 +71,11 @@
               "RelativeToolTip": "Assets\\scripts\\cubebabax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T15:18:46.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T15:18:46.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "grab.cs",
               "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\grab.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\grab.cs",
@@ -85,30 +83,30 @@
               "RelativeToolTip": "Assets\\scripts\\grab.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAYwDQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:09:16.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T14:09:16.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "camera.cs",
               "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\camera.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\camera.cs",
               "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\camera.cs",
               "RelativeToolTip": "Assets\\scripts\\camera.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T12:34:23.052Z"
+              "WhenOpened": "2025-05-23T12:34:23.052Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "move.cs",
               "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\move.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\move.cs",
               "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\move.cs",
               "RelativeToolTip": "Assets\\scripts\\move.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwDsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAA1wDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T21:38:52.237Z",
               "EditorCaption": ""
