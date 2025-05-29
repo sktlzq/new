@@ -1710,8 +1710,9 @@ GameObject:
   - component: {fileID: 931608466}
   - component: {fileID: 931608465}
   - component: {fileID: 931608469}
+  - component: {fileID: 931608470}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Bomba
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1834,6 +1835,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &931608470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931608464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5107709353917204697eace92453325a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1108704146
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,8 +2166,9 @@ GameObject:
   - component: {fileID: 1547446354}
   - component: {fileID: 1547446353}
   - component: {fileID: 1547446357}
+  - component: {fileID: 1547446358}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Bita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2277,6 +2291,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1547446358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547446352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c9b49bfd7ffae488017bdd59c0e951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1719992783
 GameObject:
   m_ObjectHideFlags: 0

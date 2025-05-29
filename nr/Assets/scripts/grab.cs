@@ -1,4 +1,5 @@
 using System.Net.Http.Headers;
+using UnityEditor;
 using UnityEngine;
 
 public class grab : MonoBehaviour
@@ -41,9 +42,17 @@ public class grab : MonoBehaviour
             target.transform.rotation = handpos.rotation;
             target.transform.Find("grabpos").LookAt(handpos.position);
             target.GetComponent<Rigidbody>().AddForce(target.transform.Find("grabpos").forward * (Vector3.Distance(handpos.position, target.transform.position)) * 10, ForceMode.Impulse);
-            target.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;           
+            target.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
+            if (Input.GetKey(KeyCode.E) && target.GetComponent<MonoBehaviour>())
+            {
+                MonoBehaviour script = target.GetComponent<MonoBehaviour>();
+                if (script != null)
+                {
+                    script.Invoke("Activate", 0);
+                }
+            }
         }
-
+        
     }
 }
 
