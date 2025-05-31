@@ -1,4 +1,6 @@
 using System.Net.Http.Headers;
+using Unity.Mathematics;
+using UnityEditor;
 using UnityEngine;
 
 public class grab : MonoBehaviour
@@ -21,17 +23,22 @@ public class grab : MonoBehaviour
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
-                if (Physics.Raycast(ray, out hit, 5))
+                if (Physics.Raycast(ray, out hit, 50))
                 {
                     if (hit.transform.gameObject.tag != "GND" && hit.transform.gameObject.tag != "NotT")
                     {
                         target = hit.transform.gameObject;
+                        target.GetComponent<Rigidbody>().useGravity = false;
                     }
                 }
             }  
         }
         else
         {
+            if (target != null)
+            {
+                target.GetComponent<Rigidbody>().useGravity = true;
+            }
             target = null;
         }
 
@@ -40,10 +47,18 @@ public class grab : MonoBehaviour
         {
             target.transform.rotation = handpos.rotation;
             target.transform.Find("grabpos").LookAt(handpos.position);
-            target.GetComponent<Rigidbody>().AddForce(target.transform.Find("grabpos").forward * (Vector3.Distance(handpos.position, target.transform.position)) * 10, ForceMode.Impulse);
-            target.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;           
+            target.GetComponent<Rigidbody>().AddForce(target.transform.Find("grabpos").forward * Vector3.Distance(handpos.position, target.transform.position) * 10, ForceMode.Impulse);
+            target.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
+            if (Input.GetKey(KeyCode.E) && target.GetComponent<MonoBehaviour>())
+            {
+                MonoBehaviour script = target.GetComponent<MonoBehaviour>();
+                if (script != null)
+                {
+                    script.Invoke("Activate", 0);
+                }
+            }
         }
-
+        
     }
 }
 
