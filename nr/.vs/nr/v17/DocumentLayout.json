@@ -1,42 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\superneirogay\\new\\nr\\",
+  "WorkspaceRootPath": "C:\\Users\\kkk7\\Documents\\GitHub\\new\\nr\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\grab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|c:\\users\\kkk7\\documents\\github\\new\\nr\\assets\\scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\boardcolorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boardcolorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\universalspawnerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\universalspawnerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\bitabit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bitabit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\plus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\minus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|Z:\\superneirogay\\new\\nr\\assets\\scripts\\cubebabax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubebabax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|c:\\users\\kkk7\\documents\\github\\new\\nr\\assets\\scripts\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14421395-2BDE-4157-743E-87BF0B9D2EA1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,118 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BoardColorChanger.cs",
-              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\BoardColorChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\BoardColorChanger.cs",
-              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\BoardColorChanger.cs",
-              "RelativeToolTip": "Assets\\scripts\\BoardColorChanger.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAlwC4AAAAhAAAAAAAAAA==",
+              "Title": "room.cs",
+              "DocumentMoniker": "C:\\Users\\kkk7\\Documents\\GitHub\\new\\nr\\Assets\\scripts\\room.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\room.cs",
+              "ToolTip": "C:\\Users\\kkk7\\Documents\\GitHub\\new\\nr\\Assets\\scripts\\room.cs",
+              "RelativeToolTip": "Assets\\scripts\\room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:29:42.169Z",
+              "WhenOpened": "2025-05-31T17:58:12.785Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UniversalSpawnerUI.cs",
-              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\UniversalSpawnerUI.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\UniversalSpawnerUI.cs",
-              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\UniversalSpawnerUI.cs",
-              "RelativeToolTip": "Assets\\scripts\\UniversalSpawnerUI.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T14:10:41.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "minus.cs",
-              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\minus.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\minus.cs",
-              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\minus.cs",
-              "RelativeToolTip": "Assets\\scripts\\minus.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T13:07:23.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PLUS.cs",
-              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\PLUS.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\PLUS.cs",
-              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\PLUS.cs",
-              "RelativeToolTip": "Assets\\scripts\\PLUS.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T13:07:20.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "grab.cs",
-              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\grab.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\grab.cs",
-              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\grab.cs",
-              "RelativeToolTip": "Assets\\scripts\\grab.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwDQAAAANAAAAAAAAAA==",
+              "Title": "MapManager.cs",
+              "DocumentMoniker": "C:\\Users\\kkk7\\Documents\\GitHub\\new\\nr\\Assets\\scripts\\MapManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MapManager.cs",
+              "ToolTip": "C:\\Users\\kkk7\\Documents\\GitHub\\new\\nr\\Assets\\scripts\\MapManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\MapManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:09:16.704Z",
+              "WhenOpened": "2025-05-31T17:45:48.966Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bitabit.cs",
-              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\Bitabit.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Bitabit.cs",
-              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\Bitabit.cs",
-              "RelativeToolTip": "Assets\\scripts\\Bitabit.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswBMAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T15:21:33.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "cubebabax.cs",
-              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\cubebabax.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\cubebabax.cs",
-              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\cubebabax.cs",
-              "RelativeToolTip": "Assets\\scripts\\cubebabax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T15:18:46.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "camera.cs",
-              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\camera.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\camera.cs",
-              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\camera.cs",
-              "RelativeToolTip": "Assets\\scripts\\camera.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T12:34:23.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "move.cs",
-              "DocumentMoniker": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\move.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\move.cs",
-              "ToolTip": "Z:\\superneirogay\\new\\nr\\Assets\\scripts\\move.cs",
-              "RelativeToolTip": "Assets\\scripts\\move.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwDsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:38:52.237Z"
             }
           ]
         }
